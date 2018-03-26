@@ -1,5 +1,3 @@
-require pry
-
 def hopper
 	programmer_hash = {
         :grace_hopper => {
@@ -16,7 +14,6 @@ def hopper
         }
      }
 programmer_hash[:grace_hopper]
-
 end
 
 def alan_kay_is_known_for
@@ -78,8 +75,6 @@ def adding_matz
 
 
 end
-
-binding.pry
 
 def changing_alan
 	programmer_hash = {
