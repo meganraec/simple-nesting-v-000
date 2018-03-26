@@ -77,6 +77,7 @@ def adding_matz
 
 end
 
+binding.pry
 def changing_alan
 	programmer_hash = {
 			grace_hopper: {
