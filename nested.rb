@@ -1,3 +1,5 @@
+require pry
+
 def hopper
 	programmer_hash = {
         :grace_hopper => {
@@ -77,7 +79,8 @@ def adding_matz
 
 end
 
-require binding.pry
+binding.pry
+
 def changing_alan
 	programmer_hash = {
 			grace_hopper: {
